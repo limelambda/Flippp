@@ -1,0 +1,12 @@
+App(
+    appid="flippp",
+    name="Flippp",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="flippp_app",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=20,
+    fap_icon="flippp.png",
+)
